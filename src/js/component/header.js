@@ -3,7 +3,7 @@ import photo from "../../img/photo.jpeg";
 
 export const Header = () => {
 	return (
-		<header className="masthead bg-primary text-white text-center" id="header">
+		<header className="masthead bg-secondary text-white text-center" id="header">
 			<div className="container d-flex align-items-center flex-column">
 				<img className="masthead-avatar mb-5 rounded-circle" src={photo} alt="" />
 
@@ -12,12 +12,12 @@ export const Header = () => {
 				<div className="divider-custom divider-light">
 					<div className="divider-custom-line" />
 					<div className="divider-custom-icon">
-						<i className="fas fa-star" />
+						<i className="fab fa-react" />
 					</div>
 					<div className="divider-custom-line" />
 				</div>
 
-				<p className="masthead-subheading font-weight-light mb-0">Web Developer</p>
+				<p className="masthead-subheading font-weight-light mb-0">Full Stack Developer.</p>
 			</div>
 		</header>
 	);

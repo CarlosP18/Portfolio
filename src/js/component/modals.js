@@ -49,16 +49,8 @@ export const Modals = () => {
 
 										<img className="img-fluid rounded mb-5" src={starwars} alt="" />
 										<ul
-											className="list-group list-group-flush text-left "
+											className="list-group list-group-flush text-center "
 											style={{ color: "rgb(26,188,156)" }}>
-											<li className="list-group-item">
-												<i className="fas fa-edit mr-2 font-weight-bold" />
-												<span className="font-weight-bold mr-4">Description:</span>
-												<span style={{ color: "black" }}>
-													Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo,
-													fugiat.
-												</span>
-											</li>
 											<li className="list-group-item">
 												<i className="fas fa-code mr-2 font-weight-bold" />
 												<span className="font-weight-bold mr-4"> Used Techs:</span>
@@ -81,7 +73,19 @@ export const Modals = () => {
 														style={{ color: "rgb(26,188,156)" }}>
 														/
 													</span>{" "}
-													REACTJS
+													REACTJS{" "}
+													<span
+														className="font-weight-bold"
+														style={{ color: "rgb(26,188,156)" }}>
+														/
+													</span>{" "}
+													REACT ROUTER{" "}
+													<span
+														className="font-weight-bold"
+														style={{ color: "rgb(26,188,156)" }}>
+														/
+													</span>{" "}
+													CONTEXT API{" "}
 												</span>
 											</li>
 											<li className="list-group-item ">
@@ -97,7 +101,7 @@ export const Modals = () => {
 											</li>
 										</ul>
 
-										<button className="btn btn-primary" data-dismiss="modal">
+										<button className="btn btn-primary  mt-3" data-dismiss="modal">
 											<i className="fas fa-times fa-fw" />
 											Close Window
 										</button>
@@ -144,16 +148,8 @@ export const Modals = () => {
 										<img className="img-fluid rounded mb-5" src={todo} alt="" />
 
 										<ul
-											className="list-group list-group-flush text-left "
+											className="list-group list-group-flush text-center "
 											style={{ color: "rgb(26,188,156)" }}>
-											<li className="list-group-item">
-												<i className="fas fa-edit mr-2 font-weight-bold" />
-												<span className="font-weight-bold mr-4">Description:</span>
-												<span style={{ color: "black" }}>
-													Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo,
-													fugiat.
-												</span>
-											</li>
 											<li className="list-group-item">
 												<i className="fas fa-code mr-2 font-weight-bold" />
 												<span className="font-weight-bold mr-4"> Used Techs:</span>
@@ -186,12 +182,12 @@ export const Modals = () => {
 													style={{ color: "black" }}
 													rel="noopener noreferrer"
 													target="_blank"
-													href="https://github.com/CarlosP18/startwars-blog-react.git">
-													https://github.com/CarlosP18/startwars-blog-react.git
+													href="https://github.com/CarlosP18/to-do-list-react">
+													https://github.com/CarlosP18/to-do-list-react
 												</a>
 											</li>
 										</ul>
-										<button className="btn btn-primary" data-dismiss="modal">
+										<button className="btn btn-primary mt-3" data-dismiss="modal">
 											<i className="fas fa-times fa-fw" />
 											Close Window
 										</button>
@@ -238,16 +234,8 @@ export const Modals = () => {
 										<img className="img-fluid rounded mb-5" src={contact} alt="" />
 
 										<ul
-											className="list-group list-group-flush text-left "
+											className="list-group list-group-flush text-center "
 											style={{ color: "rgb(26,188,156)" }}>
-											<li className="list-group-item">
-												<i className="fas fa-edit mr-2 font-weight-bold" />
-												<span className="font-weight-bold mr-4">Description:</span>
-												<span style={{ color: "black" }}>
-													Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo,
-													fugiat.
-												</span>
-											</li>
 											<li className="list-group-item">
 												<i className="fas fa-code mr-2 font-weight-bold" />
 												<span className="font-weight-bold mr-4"> Used Techs:</span>
@@ -270,7 +258,13 @@ export const Modals = () => {
 														style={{ color: "rgb(26,188,156)" }}>
 														/
 													</span>{" "}
-													REACTJS
+													REACTJS{" "}
+													<span
+														className="font-weight-bold"
+														style={{ color: "rgb(26,188,156)" }}>
+														/
+													</span>{" "}
+													CONTEXT API{" "}
 												</span>
 											</li>
 											<li className="list-group-item ">
@@ -280,12 +274,12 @@ export const Modals = () => {
 													style={{ color: "black" }}
 													rel="noopener noreferrer"
 													target="_blank"
-													href="https://github.com/CarlosP18/startwars-blog-react.git">
-													https://github.com/CarlosP18/startwars-blog-react.git
+													href="https://github.com/CarlosP18/contact-list-react">
+													https://github.com/CarlosP18/contact-list-react
 												</a>
 											</li>
 										</ul>
-										<button className="btn btn-primary" data-dismiss="modal">
+										<button className="btn btn-primary mt-3" data-dismiss="modal">
 											<i className="fas fa-times fa-fw" />
 											Close Window
 										</button>
@@ -332,16 +326,8 @@ export const Modals = () => {
 										<img className="img-fluid rounded mb-5" src={tictac} alt="" />
 
 										<ul
-											className="list-group list-group-flush text-left "
+											className="list-group list-group-flush text-center "
 											style={{ color: "rgb(26,188,156)" }}>
-											<li className="list-group-item">
-												<i className="fas fa-edit mr-2 font-weight-bold" />
-												<span className="font-weight-bold mr-4">Description:</span>
-												<span style={{ color: "black" }}>
-													Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo,
-													fugiat.
-												</span>
-											</li>
 											<li className="list-group-item">
 												<i className="fas fa-code mr-2 font-weight-bold" />
 												<span className="font-weight-bold mr-4"> Used Techs:</span>
@@ -374,12 +360,12 @@ export const Modals = () => {
 													style={{ color: "black" }}
 													rel="noopener noreferrer"
 													target="_blank"
-													href="https://github.com/CarlosP18/startwars-blog-react.git">
-													https://github.com/CarlosP18/startwars-blog-react.git
+													href="https://github.com/CarlosP18/tictactoe-react">
+													https://github.com/CarlosP18/tictactoe-react
 												</a>
 											</li>
 										</ul>
-										<button className="btn btn-primary" data-dismiss="modal">
+										<button className="btn btn-primary mt-3" data-dismiss="modal">
 											<i className="fas fa-times fa-fw" />
 											Close Window
 										</button>
@@ -426,16 +412,8 @@ export const Modals = () => {
 										<img className="img-fluid rounded mb-5" src={music} alt="" />
 
 										<ul
-											className="list-group list-group-flush text-left "
+											className="list-group list-group-flush text-center "
 											style={{ color: "rgb(26,188,156)" }}>
-											<li className="list-group-item">
-												<i className="fas fa-edit mr-2 font-weight-bold" />
-												<span className="font-weight-bold mr-4">Description:</span>
-												<span style={{ color: "black" }}>
-													Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo,
-													fugiat.
-												</span>
-											</li>
 											<li className="list-group-item">
 												<i className="fas fa-code mr-2 font-weight-bold" />
 												<span className="font-weight-bold mr-4"> Used Techs:</span>
@@ -468,12 +446,12 @@ export const Modals = () => {
 													style={{ color: "black" }}
 													rel="noopener noreferrer"
 													target="_blank"
-													href="https://github.com/CarlosP18/startwars-blog-react.git">
-													https://github.com/CarlosP18/startwars-blog-react.git
+													href="https://github.com/CarlosP18/music-player-with-react">
+													https://github.com/CarlosP18/music-player-with-react
 												</a>
 											</li>
 										</ul>
-										<button className="btn btn-primary" data-dismiss="modal">
+										<button className="btn btn-primary mt-3" data-dismiss="modal">
 											<i className="fas fa-times fa-fw" />
 											Close Window
 										</button>
@@ -518,16 +496,8 @@ export const Modals = () => {
 										<img className="img-fluid rounded mb-5" src={card} alt="" />
 
 										<ul
-											className="list-group list-group-flush text-left "
+											className="list-group list-group-flush text-center "
 											style={{ color: "rgb(26,188,156)" }}>
-											<li className="list-group-item">
-												<i className="fas fa-edit mr-2 font-weight-bold" />
-												<span className="font-weight-bold mr-4">Description:</span>
-												<span style={{ color: "black" }}>
-													Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo,
-													fugiat.
-												</span>
-											</li>
 											<li className="list-group-item">
 												<i className="fas fa-code mr-2 font-weight-bold" />
 												<span className="font-weight-bold mr-4"> Used Techs:</span>
@@ -550,7 +520,7 @@ export const Modals = () => {
 														style={{ color: "rgb(26,188,156)" }}>
 														/
 													</span>{" "}
-													REACTJS
+													jAVASCRIPT
 												</span>
 											</li>
 											<li className="list-group-item ">
@@ -560,12 +530,12 @@ export const Modals = () => {
 													style={{ color: "black" }}
 													rel="noopener noreferrer"
 													target="_blank"
-													href="https://github.com/CarlosP18/startwars-blog-react.git">
-													https://github.com/CarlosP18/startwars-blog-react.git
+													href="https://github.com/CarlosP18/bubble-sorting-card-generator">
+													https://github.com/CarlosP18/bubble-sorting-card-generator
 												</a>
 											</li>
 										</ul>
-										<button className="btn btn-primary" data-dismiss="modal">
+										<button className="btn btn-primary mt-3" data-dismiss="modal">
 											<i className="fas fa-times fa-fw" />
 											Close Window
 										</button>
@@ -611,16 +581,8 @@ export const Modals = () => {
 										<img className="img-fluid rounded mb-5" src={feed} alt="" />
 
 										<ul
-											className="list-group list-group-flush text-left "
+											className="list-group list-group-flush text-center "
 											style={{ color: "rgb(26,188,156)" }}>
-											<li className="list-group-item">
-												<i className="fas fa-edit mr-2 font-weight-bold" />
-												<span className="font-weight-bold mr-4">Description:</span>
-												<span style={{ color: "black" }}>
-													Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo,
-													fugiat.
-												</span>
-											</li>
 											<li className="list-group-item">
 												<i className="fas fa-code mr-2 font-weight-bold" />
 												<span className="font-weight-bold mr-4"> Used Techs:</span>
@@ -638,12 +600,6 @@ export const Modals = () => {
 														/
 													</span>{" "}
 													BOOTSTRAP{" "}
-													<span
-														className="font-weight-bold"
-														style={{ color: "rgb(26,188,156)" }}>
-														/
-													</span>{" "}
-													REACTJS
 												</span>
 											</li>
 											<li className="list-group-item ">
@@ -653,12 +609,12 @@ export const Modals = () => {
 													style={{ color: "black" }}
 													rel="noopener noreferrer"
 													target="_blank"
-													href="https://github.com/CarlosP18/startwars-blog-react.git">
-													https://github.com/CarlosP18/startwars-blog-react.git
+													href="https://github.com/CarlosP18/The-Instagram-Photo-Feed">
+													https://github.com/CarlosP18/The-Instagram-Photo-Feed
 												</a>
 											</li>
 										</ul>
-										<button className="btn btn-primary" data-dismiss="modal">
+										<button className="btn btn-primary mt-3" data-dismiss="modal">
 											<i className="fas fa-times fa-fw" />
 											Close Window
 										</button>
@@ -705,16 +661,8 @@ export const Modals = () => {
 										<img className="img-fluid rounded mb-5" src={pricing} alt="" />
 
 										<ul
-											className="list-group list-group-flush text-left "
+											className="list-group list-group-flush text-center "
 											style={{ color: "rgb(26,188,156)" }}>
-											<li className="list-group-item">
-												<i className="fas fa-edit mr-2 font-weight-bold" />
-												<span className="font-weight-bold mr-4">Description:</span>
-												<span style={{ color: "black" }}>
-													Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo,
-													fugiat.
-												</span>
-											</li>
 											<li className="list-group-item">
 												<i className="fas fa-code mr-2 font-weight-bold" />
 												<span className="font-weight-bold mr-4"> Used Techs:</span>
@@ -726,18 +674,6 @@ export const Modals = () => {
 														/
 													</span>{" "}
 													CSS{" "}
-													<span
-														className="font-weight-bold"
-														style={{ color: "rgb(26,188,156)" }}>
-														/
-													</span>{" "}
-													BOOTSTRAP{" "}
-													<span
-														className="font-weight-bold"
-														style={{ color: "rgb(26,188,156)" }}>
-														/
-													</span>{" "}
-													REACTJS
 												</span>
 											</li>
 											<li className="list-group-item ">
@@ -747,12 +683,12 @@ export const Modals = () => {
 													style={{ color: "black" }}
 													rel="noopener noreferrer"
 													target="_blank"
-													href="https://github.com/CarlosP18/startwars-blog-react.git">
-													https://github.com/CarlosP18/startwars-blog-react.git
+													href="https://github.com/CarlosP18/responsive-pricing-panel">
+													https://github.com/CarlosP18/responsive-pricing-panel
 												</a>
 											</li>
 										</ul>
-										<button className="btn btn-primary" data-dismiss="modal">
+										<button className="btn btn-primary mt-3" data-dismiss="modal">
 											<i className="fas fa-times fa-fw" />
 											Close Window
 										</button>
@@ -799,16 +735,8 @@ export const Modals = () => {
 										<img className="img-fluid rounded mb-5" src={candy} alt="" />
 
 										<ul
-											className="list-group list-group-flush text-left "
+											className="list-group list-group-flush text-center "
 											style={{ color: "rgb(26,188,156)" }}>
-											<li className="list-group-item">
-												<i className="fas fa-edit mr-2 font-weight-bold" />
-												<span className="font-weight-bold mr-4">Description:</span>
-												<span style={{ color: "black" }}>
-													Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo,
-													fugiat.
-												</span>
-											</li>
 											<li className="list-group-item">
 												<i className="fas fa-code mr-2 font-weight-bold" />
 												<span className="font-weight-bold mr-4"> Used Techs:</span>
@@ -826,12 +754,6 @@ export const Modals = () => {
 														/
 													</span>{" "}
 													BOOTSTRAP{" "}
-													<span
-														className="font-weight-bold"
-														style={{ color: "rgb(26,188,156)" }}>
-														/
-													</span>{" "}
-													REACTJS
 												</span>
 											</li>
 											<li className="list-group-item ">
@@ -841,12 +763,12 @@ export const Modals = () => {
 													style={{ color: "black" }}
 													rel="noopener noreferrer"
 													target="_blank"
-													href="https://github.com/CarlosP18/startwars-blog-react.git">
-													https://github.com/CarlosP18/startwars-blog-react.git
+													href="https://github.com/CarlosP18/responsive-home-page">
+													https://github.com/CarlosP18/responsive-home-page
 												</a>
 											</li>
 										</ul>
-										<button className="btn btn-primary" data-dismiss="modal">
+										<button className="btn btn-primary mt-3" data-dismiss="modal">
 											<i className="fas fa-times fa-fw" />
 											Close Window
 										</button>
@@ -893,16 +815,8 @@ export const Modals = () => {
 										<img className="img-fluid rounded mb-5" src={page} alt="" />
 
 										<ul
-											className="list-group list-group-flush text-left "
+											className="list-group list-group-flush text-center "
 											style={{ color: "rgb(26,188,156)" }}>
-											<li className="list-group-item">
-												<i className="fas fa-edit mr-2 font-weight-bold" />
-												<span className="font-weight-bold mr-4">Description:</span>
-												<span style={{ color: "black" }}>
-													Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo,
-													fugiat.
-												</span>
-											</li>
 											<li className="list-group-item">
 												<i className="fas fa-code mr-2 font-weight-bold" />
 												<span className="font-weight-bold mr-4"> Used Techs:</span>
@@ -920,12 +834,6 @@ export const Modals = () => {
 														/
 													</span>{" "}
 													BOOTSTRAP{" "}
-													<span
-														className="font-weight-bold"
-														style={{ color: "rgb(26,188,156)" }}>
-														/
-													</span>{" "}
-													REACTJS
 												</span>
 											</li>
 											<li className="list-group-item ">
@@ -935,12 +843,12 @@ export const Modals = () => {
 													style={{ color: "black" }}
 													rel="noopener noreferrer"
 													target="_blank"
-													href="https://github.com/CarlosP18/startwars-blog-react.git">
-													https://github.com/CarlosP18/startwars-blog-react.git
+													href="https://github.com/CarlosP18/exercise-collaborative-html-website">
+													https://github.com/CarlosP18/exercise-collaborative-html-website
 												</a>
 											</li>
 										</ul>
-										<button className="btn btn-primary" data-dismiss="modal">
+										<button className="btn btn-primary mt-3" data-dismiss="modal">
 											<i className="fas fa-times fa-fw" />
 											Close Window
 										</button>
@@ -987,16 +895,8 @@ export const Modals = () => {
 										<img className="img-fluid rounded mb-5" src={login} alt="" />
 
 										<ul
-											className="list-group list-group-flush text-left "
+											className="list-group list-group-flush text-center "
 											style={{ color: "rgb(26,188,156)" }}>
-											<li className="list-group-item">
-												<i className="fas fa-edit mr-2 font-weight-bold" />
-												<span className="font-weight-bold mr-4">Description:</span>
-												<span style={{ color: "black" }}>
-													Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo,
-													fugiat.
-												</span>
-											</li>
 											<li className="list-group-item">
 												<i className="fas fa-code mr-2 font-weight-bold" />
 												<span className="font-weight-bold mr-4"> Used Techs:</span>
@@ -1014,27 +914,10 @@ export const Modals = () => {
 														/
 													</span>{" "}
 													BOOTSTRAP{" "}
-													<span
-														className="font-weight-bold"
-														style={{ color: "rgb(26,188,156)" }}>
-														/
-													</span>{" "}
-													REACTJS
 												</span>
 											</li>
-											<li className="list-group-item ">
-												<i className="fab fa-github mr-2 font-weight-bold" />
-												<span className="font-weight-bold mr-4"> GitHub Repo: </span>
-												<a
-													style={{ color: "black" }}
-													rel="noopener noreferrer"
-													target="_blank"
-													href="https://github.com/CarlosP18/startwars-blog-react.git">
-													https://github.com/CarlosP18/startwars-blog-react.git
-												</a>
-											</li>
 										</ul>
-										<button className="btn btn-primary" data-dismiss="modal">
+										<button className="btn btn-primary mt-3" data-dismiss="modal">
 											<i className="fas fa-times fa-fw" />
 											Close Window
 										</button>
@@ -1081,16 +964,8 @@ export const Modals = () => {
 										<img className="img-fluid rounded mb-5" src={signup} alt="" />
 
 										<ul
-											className="list-group list-group-flush text-left "
+											className="list-group list-group-flush text-center "
 											style={{ color: "rgb(26,188,156)" }}>
-											<li className="list-group-item">
-												<i className="fas fa-edit mr-2 font-weight-bold" />
-												<span className="font-weight-bold mr-4">Description:</span>
-												<span style={{ color: "black" }}>
-													Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo,
-													fugiat.
-												</span>
-											</li>
 											<li className="list-group-item">
 												<i className="fas fa-code mr-2 font-weight-bold" />
 												<span className="font-weight-bold mr-4"> Used Techs:</span>
@@ -1108,27 +983,10 @@ export const Modals = () => {
 														/
 													</span>{" "}
 													BOOTSTRAP{" "}
-													<span
-														className="font-weight-bold"
-														style={{ color: "rgb(26,188,156)" }}>
-														/
-													</span>{" "}
-													REACTJS
 												</span>
 											</li>
-											<li className="list-group-item ">
-												<i className="fab fa-github mr-2 font-weight-bold" />
-												<span className="font-weight-bold mr-4"> GitHub Repo: </span>
-												<a
-													style={{ color: "black" }}
-													rel="noopener noreferrer"
-													target="_blank"
-													href="https://github.com/CarlosP18/startwars-blog-react.git">
-													https://github.com/CarlosP18/startwars-blog-react.git
-												</a>
-											</li>
 										</ul>
-										<button className="btn btn-primary" data-dismiss="modal">
+										<button className="btn btn-primary mt-3" data-dismiss="modal">
 											<i className="fas fa-times fa-fw" />
 											Close Window
 										</button>

@@ -10239,6 +10239,16 @@ form .row:first-child .floating-label-form-group {
   background-color: #1a252f;
 }
 
-Link:hover{
+.nav-item > .active {
+  color: #fff;
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+
+}
+
+.nav-item:hover{
+  cursor: pointer !important;
+}
+.navbar-brand:hover{
   cursor: pointer !important;
 }

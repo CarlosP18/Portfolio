@@ -1,6 +1,7 @@
 import React from "react";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 import logo from "../../img/logo.png";
+import resume from "../../img/CPCV.pdf";
 
 export const Navbar = () => {
 	return (
@@ -9,12 +10,10 @@ export const Navbar = () => {
 				<Link
 					style={{ width: "35%" }}
 					className="navbar-brand"
-					to="header"
-					activeClass="active"
-					spy={true}
-					smooth={true}
 					offset={-70}
-					duration={500}>
+					smooth={true}
+					duration={1500}
+					to="header">
 					<img className="img-fluid w-75" src={logo} alt="" />
 				</Link>
 
@@ -33,10 +32,10 @@ export const Navbar = () => {
 						<li className="nav-item mx-0 mx-lg-1">
 							<Link
 								className="nav-link py-3 px-0 px-lg-3 rounded "
-								spy={true}
-								smooth={true}
 								offset={-70}
-								duration={500}
+								activeClass="active"
+								smooth={true}
+								duration={1500}
 								to="portfolio">
 								Portfolio
 							</Link>
@@ -45,25 +44,23 @@ export const Navbar = () => {
 							<Link
 								className="nav-link py-3 px-0 px-lg-3 rounded "
 								activeClass="active"
-								spy={true}
 								smooth={true}
 								offset={-70}
-								duration={500}
+								spy={true}
+								duration={1500}
 								to="about">
-								About
+								About Me
 							</Link>
 						</li>
-						<li className="nav-item mx-0 mx-lg-1">
-							<Link
-								className="nav-link py-3 px-0 px-lg-3 rounded "
-								activeClass="active"
-								spy={true}
-								smooth={true}
-								offset={-70}
-								duration={500}
-								to="">
-								CV
-							</Link>
+						<li className="nav-link mx-0  mx-lg-1 ">
+							<a
+								className="btn btn-md btn-outline-light font-weight-bold"
+								style={{ alignSelf: "center" }}
+								href={resume}
+								download="Carlos Plaza Resume">
+								<i className="fas fa-download mr-2" />
+								cv
+							</a>
 						</li>
 					</ul>
 				</div>

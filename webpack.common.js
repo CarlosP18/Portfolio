@@ -17,7 +17,7 @@ module.exports = {
         {
           test: /\.(js|jsx)$/,
           exclude: /node_modules/,
-          use: ['babel-loader', 'eslint-loader']
+          use: ['babel-loader', 'eslint-loader'],
         },
         {
           test: /\.(css|scss)$/, use: [{
@@ -29,7 +29,7 @@ module.exports = {
           }]
         }, //css only files
         {
-          test: /\.(png|svg|jpg|gif|jpeg|webp)$/, use: {
+          test: /\.(png|svg|jpg|gif|jpeg|webp|pdf)$/, use: {
             loader: 'file-loader',
             options: { name: '[name].[ext]' }
           }
@@ -54,5 +54,8 @@ module.exports = {
         template: 'template.html'
     }),
     new Dotenv({ safe: true, systemvars: true })
+
+   
   ]
+  
 };

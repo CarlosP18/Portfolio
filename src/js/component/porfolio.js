@@ -21,7 +21,7 @@ export const Porfolio = () => {
 				<div className="divider-custom">
 					<div className="divider-custom-line" />
 					<div className="divider-custom-icon">
-						<i className="fas fa-star" />
+						<i className="fab fa-react" />
 					</div>
 					<div className="divider-custom-line" />
 				</div>
