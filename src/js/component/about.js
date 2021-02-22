@@ -1,4 +1,5 @@
 import React from "react";
+import resume from "../../img/CPCV.pdf";
 
 export const About = () => {
 	return (
@@ -26,7 +27,7 @@ export const About = () => {
 				</div>
 
 				<div className="text-center mt-4">
-					<a className="btn btn-xl btn-outline-light" href="" download="Carlos Plaza Resume">
+					<a className="btn btn-xl btn-outline-light" href={resume} download="Carlos Plaza Resume">
 						<i className="fas fa-download mr-2" />
 						Download Resume
 					</a>
