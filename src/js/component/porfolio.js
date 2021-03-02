@@ -1,4 +1,5 @@
 import React from "react";
+import clean from "../../img/todoclean.gif";
 import starwars from "../../img/starwars.gif";
 import contact from "../../img/contactlist.gif";
 import tictac from "../../img/tictactoe.gif";
@@ -27,6 +28,16 @@ export const Porfolio = () => {
 				</div>
 				<h3 className=" text-center text-uppercase text-secondary mb-5">Vanilla JS and ReactJS</h3>
 				<div className="row justify-content-center">
+					<div className="col-md-6 col-lg-4 mb-5">
+						<div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal13">
+							<div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+								<div className="portfolio-item-caption-content text-center text-white">
+									<i className="fas fa-plus fa-3x" />
+								</div>
+							</div>
+							<img className="img-fluid" src={clean} alt="" />
+						</div>
+					</div>
 					<div className="col-md-6 col-lg-4 mb-5">
 						<div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
 							<div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
